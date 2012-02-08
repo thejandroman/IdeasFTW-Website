@@ -47,6 +47,7 @@
     #page {
     background: #fff;
     padding: 2em 0;
+	text-align: center;
 	width: 500px;
 	margin: 0 auto;
 	border: 2px solid;
@@ -54,10 +55,28 @@
 	border-radius: 15px;
     }
 	
-	#projects {
-	width: 500px;
+	.projects {
+	width: 77%;
 	margin: 0 auto;
+	padding: 2em 0;
 	}
+	
+	.thumbnail {
+	float: left;
+	width: 100px;
+	border: 1px solid #999;
+	box-shadow: 5px 5px 5px;
+	border-radius: 15px;
+	margin: 0 15px 15px 0;
+	padding: 5px;
+	height: 100px;
+	}
+	
+	.thumbnail:hover {
+	box-shadow: 1px 1px 5px;
+	}
+	
+	.clearboth { clear: both; }
     /*
     .inner {
     margin: 0 auto;
