@@ -60,6 +60,8 @@ a {
 
 #logo { padding: 0 0 2em 0; }
 
+img { vertical-align: middle; }
+
 .projects {
   width: 69%;
   width: 70%;
